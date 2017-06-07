@@ -2,13 +2,34 @@
 	color: PowderBlue;
 	background-color: Navy;
 	text-align: center;
+	
 }
 
 a{
 	color: Yellow;
 }
 
-
-h1{
+#MyName{
 	text-transform: uppercase;
+}
+
+#profilepic{
+	width:200px;
+}
+
+#ATRobot{
+	width: 300px;
+	float: left;
+	margin: 80px;
+}
+
+.ProjectsIntro{
+	text-align: left;
+	margin: 20px;
+}
+
+.ATRobotInd{
+	width: 350px;
+	float: left;
+	margin: 40px;
 }

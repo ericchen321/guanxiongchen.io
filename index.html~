@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
 
 <head>
 	<title>Guanxiong Chen</title>
-	<link href="/home/erikee/Documents/Web_Dev_Files/GuanxiongChen/style.css" type="text/css" rel="stylesheet">
+	<link href="/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
 
-	<h1>Guanxiong Chen</h1>	
+	<h1 id="MyName">Guanxiong Chen</h1>	
 	<h2>Third-year from the Electrical Engineering Program at UBC, Vancouver</h2>
-	<img src="" alt="a picture of me">
+	<img id="profilepic" src="/home/erikee/Documents/Web_Dev_Files/GuanxiongChen/Images/profile_2.png" alt="a picture of me">
 
 	<br />
 	<br />	
