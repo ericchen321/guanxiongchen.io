@@ -5,7 +5,7 @@
 
 <head>
 	<title>Guanxiong Chen</title>
-	<link href="/media/erikee/DevFiles/Web_Dev_Files/GuanxiongChen/style.css" type="text/css" rel="stylesheet">
+	<link href="/home/erikee/Documents/Web_Dev_Files/GuanxiongChen/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,9 +17,9 @@
 	<br />
 	<br />	
 	<h3>University Projects</h3>
-	<ul><a href= "/University_Projects/Simple_RISC_Machine.html"><li>Simple RISC Machine</li></a>
-	<li><a href="/University_Projects/Reflow_Oven_Controller.html">Reflow Oven Controller</li></a>
-	<a href ="/University_Projects/Auto-tracking_Robot.html"><li>Auto-tracking Robot</li></a></ul>
+	<ul><li><a href= "/University_Projects/Simple_RISC_Machine.html">Simple RISC Machine</a></li>
+	<li><a href="/University_Projects/Reflow_Oven_Controller.html">Reflow Oven Controller</a></li>
+	<li><a href ="/University_Projects/Auto-tracking_Robot.html">Auto-tracking Robot</a></li></ul>
 	<br />
 	<h3>Educational Profile</h3>
 	<ul><li>Electrical Engineering at the University of British Columbia (2015 - present)</li>

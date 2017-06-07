@@ -1,4 +1,14 @@
 *{
 	color: PowderBlue;
 	background-color: Navy;
+	text-align: center;
+}
+
+a{
+	color: Yellow;
+}
+
+
+h1{
+	text-transform: uppercase;
 }
