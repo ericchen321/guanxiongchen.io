@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+	<title>Auto-tracking Robot | University Projects | Guanxiong Chen</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!--navigation -->
+	<div class="navigation">
+			<a href="index.html" style="text-decoration: none;">
+				<button class="nav_button">Home</button>
+			</a>
+			<div class="dropdown">
+				<button class="nav_button">University Projects</button>
+					<div class="nav_dropdown_content">
+						<a href="Auto-tracking_Robot.html">Auto-tracking Robot</a>
+						<a href="Reflow_Oven_Controller.html">Reflow Oven Controller</a>
+						<a href="Simple_RISC_Machine.html">Simple RISC Machine</a>
+					</div>
+			</div>
+			<button class="nav_button">Educational Profile</button>
+			<button class="nav_button">More about Me</button>
+			<button class="nav_button">Contact</button>
+	</div>
+
+	<!--main content -->
+	<div class ="main_content contpane">
+	  <h2 class="articletitle">Auto-tracking robot from ELEC 291</h2>
+		<div class="cont_highlight_pane">
+			<p class="highlights">Highlights: Microcontrollers, C, 8051 Assembly</p>
+		</div>
+		<p class="projectintro">I built an autonomous robot in a team of six people over the course of three weeks. A picture of the robot is shown below.</p>
+
+		<div class="container-ATR_pictures">
+			<img id="ATRobot" src="/home/erikee/Documents/Web_Dev_Files/GuanxiongChen/Images/Auto-tracking_Robot.jpg" alt="a picture of the robot">
+		</div>
+
+		<p class="projectintro">The entire robot comprises three components: a stationary transmitter used to transmit commands to the vehicle, a guide wire and a vehicle powered by batteries. The vehicle also works as a receiver which receives commands from the transmitter. The transmitter is controlled by an AVR-architecture based microcontroller, and the vehicle is controlled by an 8051-based microcontroller.</p>
+		<p class="projectintro">The transmitter generates a square-wave voltage across the two ends of the guide wire, thus generating a time-varying magnetic field in nearby spaces. Thus voltages of different magnitudes are induced across the two inductors on the vehicle, telling the vehicle whether it has deviated from the track-wire or not.</p>
+
+		<div class="container-ATR_pictures">
+			<img id="indpic1" class="indpic" src="/home/erikee/Documents/Web_Dev_Files/GuanxiongChen/Images/Ind_ATRobot.jpg" alt="how the inductor works">
+			<img id="indpic2" class="indpic" src="/home/erikee/Documents/Web_Dev_Files/GuanxiongChen/Images/Ind_Volt.jpg" alt="how the inductor works">
+		</div>
+
+		<p class="projectintro">I focused on designing the tank circuit which handles sinusoidal waves coming out from the inductors, and implementing algorithms using C to keep the vehicle on track and respond to commands sent to it.
+	</div>
+
+	<!--Footer -->
+	<div class="footer">
+	</div>
+
+</body>
+
+<html>
