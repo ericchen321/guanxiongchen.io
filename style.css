@@ -153,6 +153,11 @@ p{
 	font-size: 16px;
 }
 
+.footer_for_front_page{
+	position: absolute;
+	bottom: 0;
+}
+
 /*---------selectors for elements in the index page--------------*/
 .basics{
 	position: relative;
@@ -189,11 +194,6 @@ p{
 }
 
 #myidentity{
-}
-
-#footer_for_front_page{
-	position: absolute;
-	bottom: 0;
 }
 
 /*----------selectors for elements in Auto-tracking_Robot.html---------*/
