@@ -1,5 +1,5 @@
 /*The stylesheet for desktop computers and laptops*/
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
   /*---------selectors for elements in more than one page-----------------*/
   * {
     text-align: center;
@@ -288,8 +288,5 @@
   }
 
   /*----------selectors for elements in Contact.html---------*/
-	.footer_for_contact_page{
-		position: absolute;
-		bottom: 0;
-	}
+
 }
