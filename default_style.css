@@ -323,4 +323,10 @@
 		font-weight: bold;
 		font-size: 1.25rem;
 	}
+
+	/*----------selectors for elements in Contact.html---------*/
+	.footer_for_contact_page{
+		position: absolute;
+		bottom: 0;
+	}
 }
