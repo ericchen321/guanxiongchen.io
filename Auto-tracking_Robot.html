@@ -4,8 +4,14 @@
 
 
 <head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Guanxiong Chen's website">
+	<meta name="keywords" content="Guanxiong, UBC, Robot">
+	<meta name="author" content="Guanxiong Chen">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Auto-tracking Robot | University Projects | Guanxiong Chen</title>
-	<link href="style.css" type="text/css" rel="stylesheet">
+	<link href="default_style.css" type="text/css" rel="stylesheet">
+	<link href="mobile_style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +44,7 @@
 		</ul>
 		</div>
 		<p class="projectintro">I built an autonomous robot in a team of six people over the course of three weeks. A picture of the robot is shown below.</p>
-		<div>
+		<div class="image_container">
 			<img id="ATRobot" src="Images/Auto-tracking_Robot.jpg" alt="a picture of the robot">
 			<div>
 				<p class="pic_caption">The vehicle</p>
@@ -46,13 +52,13 @@
 		</div>
 		<p class="projectintro">The entire robot comprises three components: a stationary transmitter used to transmit commands to the vehicle, a guide wire, and a vehicle powered by batteries. The transmitter is controlled by an AVR-architecture based microcontroller, and the vehicle is controlled by an 8051-based microcontroller. The vehicle also works as a receiver which receives commands from the transmitter. The guide wire is placed on the ground, and acts as the desinated track which the vehicle should follow.</p>
 		<p class="projectintro">The transmitter generates a square-wave voltage across the two ends of the guide wire, thus generates a time-varying magnetic field in nearby spaces. So voltages of different magnitudes are induced across the two inductors on the vehicle, telling the vehicle whether it has deviated from its desinated track or not.</p>
-		<div>
+		<div class="image_container">
 			<img id="indpic1" src="Images/Ind_ATRobot.jpg" alt="how the inductor works">
 			<div>
 				<p class="pic_caption">Inductor placement</p>
 			</div>
 		</div>
-		<div>
+		<div class="image_container">
 			<img id="indpic2" src="Images/Ind_Volt.jpg" alt="how the inductor works">
 			<div>
 				<p class="pic_caption">Inductor voltage</p>
