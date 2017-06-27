@@ -42,7 +42,7 @@
 				<li class="highlights">Python</li>
 			</ul>
 		</div>
-		<p class="projectintro">This is the first project I completed for ELEC 291. Our task is to build a machine which controls the operation of an oven, so that the oven can be used to toast a C8051 F38X chip. The core of the machine is a 8051-based microcontroller. I did the project in a team of six students, and the focus of my part is programming an AT89LP52 microcontroller in assembly language. Thanks to a very competent team member, I did not have to worry too much about hardware this time.</p>
+		<p class="projectintro">This is the first project I completed for ELEC 291. Our task was to build a machine which controls the operation of an oven, so that the oven can be used to toast a C8051 F38X chip. The core of the machine is a 8051-based microcontroller. I did the project in a team of six students, and the focus of my part was programming an AT89LP52 microcontroller in 8051 assembly. Thanks to a very competent team member, I did not have to worry too much about hardware this time.</p>
 		<div class="image_container">
 			<img id="ROC_1" src="Images/ROC_1.jpg" alt="overview picture">
 			<div>
@@ -51,8 +51,8 @@
 		</div>
 		<p class="projectintro">The machine is designed such that it reads the temperature inside the oven using a thermocouple, and determines which phase of toasting should the machine be in with the temperature readings. The machine then adjusts power output to a solid state relay (SSR) connected to the oven using pulse-width modulation (PWM,) depending on which phase the machine is in.</p>
 		<p class="projectintro">So I programmed the microcontroller as a finite state machine (FSM), and each state of the FSM correspond to one phase of the toasting process. While writing the main program as an FSM, I implemented a PWM algorithm in the interrupt service routine for Timer 0 to control the power output to the SSR. I drew a block diagram to illustrate the complicated structure of the microcontroller program. The diagram can be downloaded from here:<a href="Images/Main_func_block_diagram.jpg" style="text-decoration: none; color: blue; margin-left:1em;" target="_blank">Download the software schematics</a></p>
-		<p class="projectintro">Also I was tasked to design an user-interface with an LCD. This is a lot of work, and eventually I designed an interface which allows users to change toasting parameters like time and maximum temperature with push buttons. The interface also displays the phase on which the machine is working, and temperature inside the oven.</p>
-		<p class="projectintro">The rest of my team and I also wrote a python script to display the temperatue inside oven on our laptops in real time, and plot a diagram of temperature change over time. The picture below should give you a sense of what the plot looks like.</p>
+		<p class="projectintro">Also I was tasked to design an user-interface with an LCD. This was a lot of work, and eventually I designed an interface which allows users to change toasting parameters like time and maximum temperature with push buttons. The interface also displays the phase on which the machine is working, and temperature inside the oven.</p>
+		<p class="projectintro">The rest of my team and I also wrote a python script to display the temperatue inside oven on our laptops in real time, and to plot a diagram of temperature change over time. The picture below should give you a sense of what the plot looks like.</p>
 		<div class="image_container">
 			<img id="ROC_2" src="Images/ROC_2.jpg" alt="python plot of temperature over time">
 			<div>

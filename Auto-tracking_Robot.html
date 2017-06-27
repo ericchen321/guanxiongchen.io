@@ -50,8 +50,8 @@
 				<p class="pic_caption">The vehicle</p>
 			</div>
 		</div>
-		<p class="projectintro">The entire robot comprises three components: a stationary transmitter used to transmit commands to the vehicle, a guide wire, and a vehicle powered by batteries. The transmitter is controlled by an AVR-architecture based microcontroller, and the vehicle is controlled by an 8051-based microcontroller. The vehicle also works as a receiver which receives commands from the transmitter. The guide wire is placed on the ground, and acts as the desinated track which the vehicle should follow.</p>
-		<p class="projectintro">The transmitter generates a square-wave voltage across the two ends of the guide wire, thus generates a time-varying magnetic field in nearby spaces. So voltages of different magnitudes are induced across the two inductors on the vehicle, telling the vehicle whether it has deviated from its desinated track or not.</p>
+		<p class="projectintro">The entire robot comprises three components: a stationary transmitter used to transmit commands to the vehicle, a guide wire, and a vehicle powered by batteries. The transmitter is controlled by an AVR-architecture-based microcontroller, and the vehicle is controlled by an 8051-based microcontroller. The vehicle also works as a receiver which receives commands from the transmitter. The guide wire is placed on the ground, and acts as the desinated track which the vehicle should follow.</p>
+		<p class="projectintro">The transmitter generates a square-wave voltage across the two ends of the guide wire, thus generates a time-varying magnetic field in nearby space. So voltages of different magnitudes are induced across the two inductors on the vehicle, telling the vehicle whether it has deviated from its desinated track or not.</p>
 		<div class="image_container">
 			<img id="indpic1" src="Images/Ind_ATRobot.jpg" alt="how the inductor works">
 			<div>
@@ -64,9 +64,9 @@
 				<p class="pic_caption">Inductor voltage</p>
 			</div>
 		</div>
-		<p class="projectintro">I focused on designing the tank circuit which handles sinusoidal waves coming out from the inductors, and implementing algorithms using C to keep the vehicle on track and respond to commands sent to it. Also I put a lot of time into debugging circuits with Daniel Tong, a memeber of my team.</p>
+		<p class="projectintro">I focused on designing the tank circuit which handles sinusoidal waves coming out from the inductors, implementing algorithms using C to keep the vehicle on track, and to let the vehicle respond to commands sent to it. Also I put a lot of time into debugging circuits with Daniel Tong, a memeber of my team.</p>
 		<p class="projectintro">An overview of the control program for the vehicle can be found here:<a href="Images/Project_2_Software_Block_Diagram.jpg" target="_blank" style="text-decoration: none; color: blue; margin-left:1em;">Download the control program block diagram</a></p>
-		<p class="projectintro">Circuit debugging was insanely time consuming, and very often we got ourselves into situations where nothing was working, while we had no clue about what we did wrong. We paid close attention to a few parameters critical to the functionality of the transmitter: current through the track wire, the amplified voltages from the three inductors. We also tried multiple combinations of resistors for our non-inverting amplifier which amplifies voltages coming straight out of the inductors, in order to make the vehicle sensitive to deviation.</p>
+		<p class="projectintro">Circuit debugging was extremely time consuming, and very often we got ourselves into situations where nothing was working, while we had no clue about what we did wrong. We paid close attention to a few parameters critical to the functionality of the transmitter: current through the track wire, the amplified voltages from the three inductors, and the positions at which the inductors were placed. We also tried multiple combinations of resistors for our non-inverting amplifier which amplifies voltages coming straight out of the inductors, in order to make the vehicle sensitive to deviation.</p>
 	</div>
 
 	<!--Footer -->
