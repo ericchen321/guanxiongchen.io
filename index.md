@@ -13,9 +13,12 @@ Third year Computer Engineering student at UBC.
 
 From 2nd/3rd year Electrical/Computer Engineering courses.
 
-### 2-DOF Robotic Arm Control Model
-[Code on Github](https://github.com/ericchen321/ELEC391_model)
+### 2-DOF Robotic Laser Lightshow
+[Control model](https://github.com/ericchen321/ELEC391_model)
+[Arduino control code](https://github.com/ericchen321/ELEC391_Controller)
 
+### Autonomous Rover
+[Control code for 8051 microcontroller](https://github.com/ericchen321/Magnetic_Field_Track_Robot)
 
 
 
