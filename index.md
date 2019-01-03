@@ -2,15 +2,13 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Third Year **Computer Engineering** Student at UBC.
 
-[Link to another page](./another-page.html).
-
-Third Year Computer Engineering Student at UBC.
+You can visit my LinkedIn page [here](https://ca.linkedin.com/in/guanxiongchen).
 
 # Bio
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Under construction
 
 ## Header 2
 
