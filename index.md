@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Bio
+# Intro
 
 Third year Computer Engineering student at UBC.
 
