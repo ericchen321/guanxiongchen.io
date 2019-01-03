@@ -8,6 +8,8 @@ You can visit my LinkedIn page <a href="https://ca.linkedin.com/in/guanxiongchen
 
 You can send me an email <a href="chenguanxiong@alumni.ubc.ca">My Email</a>
 
+You can download a copy of <a href="./Guanxiong_Chen_Resume_v4.pdf" target="_blank">my resume</a>.
+
 # Bio
 
 I'm taking mostly computer-related courses, including: Software Construction (**Java**), Data Structures and Algorithms (**C and C++**), Microcomputers (**Assembly**), Digital Circuit Design (**Verilog**). 
