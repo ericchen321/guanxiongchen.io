@@ -4,7 +4,7 @@ layout: default
 
 Third Year **Computer Engineering** Student at UBC.
 
-You can visit my LinkedIn page [here](https://ca.linkedin.com/in/guanxiongchen).
+You can visit my LinkedIn page <a href="https://ca.linkedin.com/in/guanxiongchen" target="_blank">here</a>.
 
 # Bio
 
