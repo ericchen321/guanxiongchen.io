@@ -16,7 +16,7 @@ I'm also familiar with some fields of Electrical Engineering, and have taken cou
 <br>
 # Work Experience
 
-## Digital Systems Design Undergraduate Teaching Assistant
+#### Digital Systems Design Undergraduate Teaching Assistant
  _from September to December 2018 at UBC_
 
  Notalble skills: teaching, SystemVerilog, unit testing
