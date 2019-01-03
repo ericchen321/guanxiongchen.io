@@ -19,14 +19,14 @@ I'm also familiar with some fields of Electrical Engineering, and have taken cou
 # Technical Experience
 
 #### - Digital Systems Design Undergraduate Teaching Assistant
- _from September to December 2018 at UBC_
+ _from September to December 2018 at Dept. of Electrical and Computer Engineering, UBC_
 
  Notalble skills: teaching, SystemVerilog, unit testing
 
  [Keep Reading](./cpen311-ta.html)
 
 #### - Communication System Developer
-_from September to December 2018 at UBC_
+_from September to December 2018 at UBC Orbit_
 
 Notable skills: working in teams, radio, Arduino
 
