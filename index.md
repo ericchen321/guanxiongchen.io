@@ -36,6 +36,33 @@ Notable skills: working in teams, radio, Arduino
 <br>
 # Personal Projects
 
-Under construction
+#### - Personal Library Manager
+_Course project for CPSC 210: Software Construction_
+
+Highlights: Java, OOD, GUI
+
+[Keep Reading](./the-great-library.html)
+
+#### - Pixel Transforming SoC
+_Course project for CPEN 311: Digital Systems Design_
+
+Highlights: SystemVerilog, System on Chip, Avalon Interface
+
+[Keep Reading](./pixel-xform-system.html)
+
+#### - Simple RISC (Reduced Instruction Set Computer) Machine
+_Course project for CPEN 211: Intro to Microcomputers_
+
+Highlights: Verilog, RISC
+
+[Keep Reading](./simple-risc-machine.html)
+
+
+#### - 2-DOF PID-controlled Robotic Arm
+_Course project for ELEC 391: Electrical Engineering Design Studio_
+
+Highlights: PID, Matlab, Simulink, Arduino
+
+[Keep Reading](./2-dof-arm.html)
 
 
