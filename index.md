@@ -12,7 +12,8 @@ I'm taking mostly computer-related courses, including: Software Construction (**
 
 I'm also familiar with some fields of Electrical Engineering, and have taken courses about control theory (**PID Control**), signals and systems, and analog circuits design.
 
-
+<br>
+<br>
 # Work Experience
 
 Under construction
