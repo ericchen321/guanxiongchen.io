@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Third Year **Computer Engineering** Student at UBC.
+Fourth Year **Computer Engineering** Student at UBC.
 
 You can visit my LinkedIn page <a href="https://ca.linkedin.com/in/guanxiongchen" target="_blank">here</a>.
 
@@ -12,20 +12,27 @@ You can download a copy of <a href="./Guanxiong_Chen_Resume_v4.pdf" target="_bla
 
 # Bio
 
-I'm taking mostly computer-related courses, including: Software Construction (**Java**), Data Structures and Algorithms (**C and C++**), Microcomputers (**Assembly**), Digital Circuit Design (**Verilog**). 
+I am taking mostly computer-related courses, including: Software Construction (**Java**), Data Structures and Algorithms (**C and C++**), Microcomputers (**Assembly**), Digital Circuit Design (**Verilog**). 
 
-Recently I'm working as a USRA research student at the ReSeSS lab (The Reliable, Secure, and Sustainable Software Lab) at UBC. The focus of my research is on **mobile security**, in particular Android malware.
+Recently I am volunteering at the UBC SPIN (Sensory Perception & Interaction) Research Group. Under Dr. Kianzad's supervision, I am working on the project "Powerpen Localization with Embedded Camera & Watermarked Paper". We aim to develop a circuit and an algorithm running on Raspberry Pi to localize a device on top of a surface.
 
-I'm also familiar with some fields of Electrical Engineering, and have taken courses about control theory (**PID Control**), signals and systems, and analog circuits design.
+I am also familiar with some fields of Electrical Engineering, and have taken courses about control theory (**PID Control**), signals and systems, electric machines, and analog circuits design.
 
 <br>
 <br>
 # Technical Experience
 
+#### - Volunteering Student at SPIN (Sensory Perception & Interaction)
+_from September 2019 to present_
+
+Notable skills: research, embedded programming
+
+ [Keep Reading](./tech-exp/spin.md)
+
 #### - USRA Research Student at ReSeSS (The Reliable, Secure, and Sustainable Software Lab)
 _from May 2019 to current at Dept. of Electrical and Computer Engineering, UBC_
 
-Notable skills: research, mobile security, static analysis
+Notable skills: research, static analysis, Android
 
  [Keep Reading](./tech-exp/resess.md)
 
@@ -37,7 +44,7 @@ Notable skills: research, mobile security, static analysis
  [Keep Reading](./tech-exp/cpen311-ta.md)
 
 #### - Communication System Developer
-_from September to December 2017 at UBC Orbit_
+_from September to December 2016 at UBC Orbit_
 
 Highlights: working in teams, radio, Arduino
 
