@@ -8,7 +8,7 @@ You can visit my LinkedIn page <a href="https://ca.linkedin.com/in/guanxiongchen
 
 You can send me an email <a href="chenguanxiong@alumni.ubc.ca">My Email</a>
 
-You can download a copy of <a href="./Guanxiong_Chen_Resume_v4.pdf" target="_blank">my resume</a>.
+You can download a copy of <a href="./Guanxiong_Chen_Resume_v8.pdf" target="_blank">my resume</a>.
 
 # Bio
 
@@ -22,14 +22,14 @@ I am also familiar with some fields of Electrical Engineering, and have taken co
 <br>
 # Technical Experience
 
-#### - Volunteering Student at SPIN (Sensory Perception & Interaction)
+#### - Volunteering Student at UBC SPIN (Sensory Perception & Interaction Group)
 _from September 2019 to present_
 
 Notable skills: research, embedded programming
 
  [Keep Reading](./tech-exp/spin.md)
 
-#### - USRA Research Student at ReSeSS (The Reliable, Secure, and Sustainable Software Lab)
+#### - USRA Research Student at UBC ReSeSS (The Reliable, Secure, and Sustainable Software Lab)
 _from May 2019 to current at Dept. of Electrical and Computer Engineering, UBC_
 
 Notable skills: research, static analysis, Android
