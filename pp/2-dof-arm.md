@@ -16,10 +16,12 @@ The project is comprised of three phases. After each phrase, we had to demo our 
 * Built a rought Simulink/MATLAB model for the one-motor system
 * Wrote up some code to control the motor
 * Assembled an encoder (a position sensor) and being able to read position from it
+
 ### Phase 2:
 * Completed the Simulink/MATLAB model for the one-motor system
 * Completed a PID control algorithm to control the commercial motor
 * Got the entire one-motor system working (full-operational circuit on breadboard with working encoder)
+
 ### Phase 3:
 * Measured parameters for the two motors made by the motor group
 * Completed a Simulink/MATLAB model for the two-motor system
