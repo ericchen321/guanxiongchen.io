@@ -23,14 +23,14 @@ I am also familiar with some fields of Electrical Engineering, and have taken co
 # Technical Experience
 
 #### - Volunteering Student at UBC SPIN (Sensory Perception & Interaction Group)
-_from September 2019 to present_
+_from September 2019 to present at Dept. of Computer Science at UBC_
 
 Notable skills: research, embedded programming
 
  [Keep Reading](./tech-exp/spin.md)
 
 #### - USRA Research Student at UBC ReSeSS (The Reliable, Secure, and Sustainable Software Lab)
-_from May 2019 to current at Dept. of Electrical and Computer Engineering, UBC_
+_from May to August 2019 at Dept. of Electrical and Computer Engineering, UBC_
 
 Notable skills: research, static analysis, Android
 
