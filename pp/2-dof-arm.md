@@ -27,7 +27,9 @@ The project is comprised of three phases. After each phrase, we had to demo our 
 * Completed a Simulink/MATLAB model for the two-motor system
 * Got the entire two-motor system working. In other words, two hand-made motors controlled by PID algorithms running on a controller with circuits on PCB
 <br><br>
+
 ## Highlights
+
 ### Measuring motor parameters
 We used a small commercial DC motor like this:
 
@@ -41,6 +43,7 @@ An abstract way to think of a DC motor is to consider it as a circuit with three
 > A BLDC Motor's Circuit Diagram. Cited from: DC Servomotor-based Antenna Positioning Control System Design using Hybrid PID-LQR Controller - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/DC-motor-circuit-diagram_fig2_303910207 [accessed 11 Jan, 2020]
 
 The diagram above has shown a few (not all) parameters I had to measure: resistance Ra, inductance La, and the backward EMF when a particular input voltage (Va) was given. 
+
 ### System Modelling
 Controlling a motor with PID required me to know the values of PID constants - Kp, Ki and Kd. So I built a model in Simulink/MATLAB to help me find the combination of three values that would work. This is the thing I built:
 
