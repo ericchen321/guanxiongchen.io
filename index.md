@@ -34,21 +34,15 @@ _from May to August 2019 at Dept. of Electrical and Computer Engineering, UBC_
 
 Notable skills: research, static analysis, Android
 
- [Keep Reading](./tech-exp/resess.md)
-
 #### - Digital Systems Design Undergraduate Teaching Assistant
  _from September to December 2018 at Dept. of Electrical and Computer Engineering, UBC_
 
  Highlights: teaching, SystemVerilog, unit testing
 
- [Keep Reading](./tech-exp/cpen311-ta.md)
-
 #### - Communication System Developer
 _from September to December 2016 at UBC Orbit_
 
 Highlights: working in teams, radio, Arduino
-
-[Keep Reading](./tech-exp/comms-dev.md)
 
 <br>
 <br>
