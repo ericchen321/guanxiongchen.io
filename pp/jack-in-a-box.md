@@ -12,7 +12,20 @@ Here is what the entire kiosk look like:
 
 <br><br>
 
-## System architecture
+## System Architecture
+
+## Hardware Architecture:
+
+The diagram below illustrates the hardware components in our kiosk, and the jobs that each delegates:
+
+![](jack-in-a-box-arch-hard.PNG)
+*The image is taken from our group report*
+
+## Software Architecture:
+And here is the diagram that shows the logic of our software components, and how they communicate:
+
+![](jack-in-a-box-arch-soft.PNG)
+*The image is taken from our group report*
 
 ## My role
 * Implementing the game's mechanics on the DE1-SoC board with a partner
@@ -22,18 +35,18 @@ Here is what the entire kiosk look like:
 ## Highlights
 
 ### Implementing _Mainframe_ - the game mechanics
-Together with [Jaskirat Singh](https://www.linkedin.com/in/jaskiratsinghmalhi/?originalSubdomain=ca), I implemented the blackjack's mechanics as a bare-metal C program running on the ARM Cortex-A9 processor on my DE1 board. We call the program _Mainframe_. The program can respond to touchscreen inputs, issue commands to deal cards，and compute scores for the (human) player and the (kiosk) dealer. Aside from game mechanics, we also implemented a GUI in the C program.
+Together with [Jaskirat Singh](https://www.linkedin.com/in/jaskiratsinghmalhi/?originalSubdomain=ca), I implemented the blackjack's mechanics as a bare-metal C program running on the ARM Cortex-A9 processor on my DE1 board. We call the program _Mainframe_. The program can respond to touchscreen inputs, issue commands to deal cards, and compute scores for the (human) player and the (kiosk) dealer. Aside from game mechanics, we also implemented a GUI in the C program.
 
 Below are some pictures of an operating instance of _Mainframe_:
 
 ![](mainframe_1.PNG)
-The welcome screen
+*The welcome screen*
 
 ![](mainframe_2.PNG)
-Dealing a card to the dealer
+*Dealing a card to the dealer*
 
 ![](mainframe_3.PNG)
-The screen that shows game result
+*The screen that shows game result*
 
 ### Implementing card value recognition
 One of the requirements for our kiosk is that, it should be able to deal cards automatically, and recognize the face values of the cards it deal. To this end, I implemented a image processing pipeline in Python on a Raspberry Pi board, with the help from my friend [Bole Ma](https://www.linkedin.com/in/david-bole-ma/). The major steps within the pipeline are:
