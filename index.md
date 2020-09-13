@@ -48,33 +48,40 @@ Highlights: working in teams, radio, Arduino
 <br>
 # Personal Projects
 
-#### - Personal Library Manager
-_Course project for CPSC 210: Software Construction_
+#### - Jack in a Box
+_Course project for CPEN 391: Computer Engineering Design Studio II_
 
-Highlights: Java, OOD, GUI
+A game kiosk for playing blackjack. 
 
-[Keep Reading](./pp/the-great-library.md)
+**Highlights**: Embedded System, SoC, Computer Vision, Machine Learning
+
+[Keep Reading](./pp/jack-in-a-box.md)
 
 #### - Pixel Transforming SoC
 _Course project for CPEN 311: Digital Systems Design_
 
-Highlights: SystemVerilog, System on Chip, Avalon Interface
+A SoC-based accelerator for transforming raster images.
+
+**Highlights**: SystemVerilog, System on Chip, Avalon Interface
 
 [Keep Reading](./pp/pixel-xform-system.md)
 
-#### - Simple RISC (Reduced Instruction Set Computer) Machine
-_Course project for CPEN 211: Intro to Microcomputers_
-
-Highlights: Verilog, RISC
-
-[Keep Reading](./pp/simple-risc-machine.md)
-
-
 #### - 2-DOF PID-controlled Robotic Arm
-_Course project for ELEC 391: Electrical Engineering Design Studio_
+_Course project for ELEC 391: Electrical Engineering Design Studio II_
 
-Highlights: PID, Matlab, Simulink, Arduino
+A robotic arm for laser light shows. 
+
+**Highlights**: PID, Matlab, Simulink, Arduino
 
 [Keep Reading](./pp/2-dof-arm.md)
+
+#### - Personal Library Manager
+_Course project for CPSC 210: Software Construction_
+
+A Java program to organize your favourite books and movies.
+
+**Highlights**: Java, OOD, GUI
+
+[Keep Reading](./pp/the-great-library.md)
 
 
