@@ -14,14 +14,14 @@ Here is what the entire kiosk look like:
 
 ## System Architecture
 
-## Hardware Architecture:
+### Hardware Architecture
 
 The diagram below illustrates the hardware components in our kiosk, and the jobs that each delegates:
 
 ![](jack-in-a-box-arch-hard.PNG)
 *The image is taken from our group report*
 
-## Software Architecture:
+### Software Architecture
 And here is the diagram that shows the logic of our software components, and how they communicate:
 
 ![](jack-in-a-box-arch-soft.PNG)
