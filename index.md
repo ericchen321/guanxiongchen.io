@@ -12,11 +12,11 @@ You can download a copy of <a href="./Guanxiong_Chen_Resume_v8.pdf" target="_bla
 
 # Bio
 
-I am taking mostly computer-related courses, including: Software Construction (**Java**), Data Structures and Algorithms (**C and C++**), Microcomputers (**Assembly**), Digital Circuit Design (**Verilog**). 
+A guy from 4-th Year CPEN at UBC. Aiming to get into a grad school and do some good research. Interested in HCI, robotics, physical simulation.
 
-Recently I am volunteering at the UBC SPIN (Sensory Perception & Interaction) Research Group. Under Dr. Kianzad's supervision, I am working on the project "Powerpen Localization with Embedded Camera & Watermarked Paper". We aim to develop a circuit and an algorithm running on Raspberry Pi to localize a device on top of a surface.
+Recently I am volunteering at the UBC SPIN (Sensory Perception & Interaction) Research Group. Under Dr. Soheil Kianzad's supervision, I am working on a project that aims to develop a haptic pen that allows people to sketch simple diagrams with geometric relationships (e.g. parallel, concentric, etc.) defined.
 
-I am also familiar with some fields of Electrical Engineering, and have taken courses about control theory (**PID Control**), signals and systems, electric machines, and analog circuits design.
+Also I am volunteering at the UBC VCR (Verification, Control & Robotics) Group, under the supervision of Prof. Ian Mitchell. I am working on a robotics-related project.
 
 <br>
 <br>
