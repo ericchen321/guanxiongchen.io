@@ -41,7 +41,7 @@ The library was developed by people from EPFL, and more details can be found [he
 
 I encountered a problem however, and because of it have put my integration effort on pause. The problem is that the library could not decode positions on two axes when I ran it on my Raspberry Pi. On other platforms such as a Ubuntu PC the library worked fine. I suspected the issue is architectural compatibility - the library works on X86-64 based or MIPS based CPUs but not ARM based ones. I think architectural compatibility is the problem, because the problem cannot OS-related - it happens on various Linux distributions on my Pi, and because as the authors of the library claimed, the code worked on Ubuntu PCs and PIC32 boards.
 
-#### Adding support for geometric relationships in haptic drawing
+### Adding support for geometric relationships in haptic drawing
 This is the part where I made substantial progress. Specifically my tasks involve:
 
 #### Conducting literature review
