@@ -51,6 +51,7 @@ The diagram above has shown a few (not all) parameters I had to measure: resista
 Controlling a motor with PID required me to know the values of PID constants - Kp, Ki and Kd. So I built a model in Simulink/MATLAB to help me find the combination of three values that would work. This is the thing I built:
 
 ![](simulink_model.PNG)
+*The image is taken from our group report*
 
 I can probably elaborate how I found the PID constants, but you'll probably get bored. But essentially I did a bunch of math. Once I have got a set of three constants, I could plug them into the orange part of the simulation. The motor parameters went into the dark blue parts. Then I ran the simulation to see of the constants could make the motors rotate in a way I wanted them to.
 
@@ -58,3 +59,4 @@ I can probably elaborate how I found the PID constants, but you'll probably get 
 We used software running on an Arduino board to control our motors. The software was written in C++. The software was structured as an infinite loop. Within each iteration, it checks the current position of the laser tip, see if the tip has got to a desired position; if not then it would send PWM signals to motor drivers, so the motors get powered up, and puts the laser tip at the right place. Here is an architectural illustration of our control software:
 
 ![](control_software_arch.PNG)
+*The image is taken from our group report*
