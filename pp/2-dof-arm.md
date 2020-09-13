@@ -42,8 +42,7 @@ By measuring motor parameters, I mean determining a motor's electrical-mechanica
 An abstract way to think of a DC motor is to consider it as a circuit with three components: a resistor, an inductor, and a backward-EMF-generating rotor:
 
 ![](https://www.researchgate.net/profile/Linus_Aloo/publication/303910207/figure/fig2/AS:371848786268161@1465667067252/DC-motor-circuit-diagram.png)
-
-> A BLDC Motor's Circuit Diagram. Cited from: DC Servomotor-based Antenna Positioning Control System Design using Hybrid PID-LQR Controller - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/DC-motor-circuit-diagram_fig2_303910207 [accessed 11 Jan, 2020]
+*A BLDC Motor's Circuit Diagram. Cited from: DC Servomotor-based Antenna Positioning Control System Design using Hybrid PID-LQR Controller - Scientific Figure on ResearchGate. Available from: https://www.researchgate.net/figure/DC-motor-circuit-diagram_fig2_303910207 [accessed 11 Jan, 2020]*
 
 The diagram above has shown a few (not all) parameters I had to measure: resistance Ra, inductance La, and the backward EMF when a particular input voltage (Va) was given. 
 
