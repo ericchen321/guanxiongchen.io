@@ -49,7 +49,7 @@ Below are some pictures of an operating instance of _Mainframe_:
 *The screen that shows game result*
 
 ### Implementing card value recognition
-One of the requirements for our kiosk is that, it should be able to deal cards automatically, and recognize the face values of the cards it deal. To this end, I implemented a image processing pipeline in Python on a Raspberry Pi board, with the help from my friend [Bole Ma](https://www.linkedin.com/in/david-bole-ma/). The major steps within the pipeline are:
+One of the requirements for our kiosk is that, it should be able to deal cards automatically, and recognize the face values of the cards it deal. To this end, I implemented a image processing pipeline in Python on a Raspberry Pi board, with the help from my friend [Bole Ma](https://www.linkedin.com/in/david-bole-ma/) (Prior to the project I did not know jack about CV/CG, so he baby-sitted me throughout this part). The major steps within the pipeline are:
 
 1. Take a picture of a card
 2. Crop the picture and leave the region with face value only
