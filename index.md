@@ -8,7 +8,7 @@ You can visit my LinkedIn page <a href="https://ca.linkedin.com/in/guanxiongchen
 
 You can send me an email <a href="chenguanxiong@alumni.ubc.ca">My Email</a>
 
-You can download a copy of <a href="./Guanxiong_Chen_Resume_v8.pdf" target="_blank">my resume</a>.
+You can download a copy of <a href="./cv_res/cv_v0.pdf" target="_blank">my CV</a>.
 
 # Bio
 
