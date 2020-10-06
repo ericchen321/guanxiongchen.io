@@ -22,27 +22,29 @@ Also I am volunteering at the UBC VCR (Verification, Control & Robotics) Group, 
 <br>
 # Technical Experience
 
+#### - Volunteering Student at UBC VCR (Verification, Control, Robotics Group)
+_from May 2020 to present at Dept. of Computer Science at UBC_
+
+Highlights: Physical simualation, reinforcement learning, ROS
+
+ [Keep Reading](./tech-exp/vcr.md)
+
 #### - Volunteering Student at UBC SPIN (Sensory Perception & Interaction Group)
 _from September 2019 to present at Dept. of Computer Science at UBC_
 
-Notable skills: research, embedded programming
+Notable skills: literature review, experiment design, embedded programming
 
  [Keep Reading](./tech-exp/spin.md)
 
 #### - USRA Research Student at UBC ReSeSS (The Reliable, Secure, and Sustainable Software Lab)
 _from May to August 2019 at Dept. of Electrical and Computer Engineering, UBC_
 
-Notable skills: research, static analysis, Android
+Notable skills: experiment design and deployment, static analysis, Android
 
 #### - Digital Systems Design Undergraduate Teaching Assistant
  _from September to December 2018 at Dept. of Electrical and Computer Engineering, UBC_
 
  Highlights: teaching, SystemVerilog, unit testing
-
-#### - Communication System Developer
-_from September to December 2016 at UBC Orbit_
-
-Highlights: working in teams, radio, Arduino
 
 <br>
 <br>
