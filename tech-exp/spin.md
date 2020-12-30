@@ -15,8 +15,8 @@ The [SPIN Group at UBC](https://www.cs.ubc.ca/labs/spin/frontpage) under [Prof. 
 ## What is Magic Pen?
 Magic Pen is a haptic pen that allows users to produce 2D hand sketches, such as free body diagrams, mechanical prototype designs or simple architectural sketches. It provides users with force feedback to guide them complete drawings. Most notably, Magic Pen has two features that distinguish it from other haptic devices:
 
-* **Shared control between the pen and user** - although the pen can provide guiding force to restrict a user's hand movement, sometimes the user may rather to be not restricted. The user can apply a stronger force to the pen to "counteract" the guiding force. Upon sensing the user-applied force, the pen will cease to apply the guiding force, so the user can move his/her hand more freely.
-* **Geometric relationships defined in sketches** - geometric relationships such as parallel ,perpendicular, and alignment allow people to convey abstract concepts in sketches, and is often employed by CAD software to help users in engineering and artistic design processes. Magic Pen allows users to define geometric relationships between objects, thus allowing them to express abstract concepts in hand sketches.
+* **Shared Control between the Pen and User** - although the pen can provide guiding force to restrict a user's hand movement, sometimes the user may rather to be not restricted. The user can apply a stronger force to the pen to "counteract" the guiding force. Upon sensing the user-applied force, the pen will cease to apply the guiding force, so the user can move his/her hand more freely.
+* **Geometric Relationships Defined in Sketches** - geometric relationships such as parallel ,perpendicular, and alignment allow people to convey abstract concepts in sketches, and is often employed by CAD software to help users in engineering and artistic design processes. Magic Pen allows users to define geometric relationships between objects, thus allowing them to express abstract concepts in hand sketches.
 
 Here is an illustration of the pen:
 
@@ -33,18 +33,18 @@ Here are some use cases of geometric relationships in hand sketches:
 
 You can read more about the project in [here](https://www.cs.ubc.ca/labs/spin/node/388).
 
-## My roles in the Magic Pen project
-### Integrating open-source localization capability
+## My Roles in the Magic Pen Project
+### Integrating Open-source Localization Capability
 For this project we aimed to integrate an open source robot localization library into our haptic pen, which runs a Python program on a Raspberry Pi Zero board. We expected by the end of the project, given camera image feed, the Python program can decode the location of Magic Pen on a flat dotted paper with structured patterns.
 
 The library was developed by people from EPFL, and more details can be found [here](https://www.epfl.ch/labs/chili/dissemination/software/libdots/). Prior to my attempt on the integration, Magic Pen could already localize itself on a flat 2D surface, with the localization capability of SamSung's Neo Smartpen. We wanted to replace Neo Smartpen with the open source library to lower the manufacturing cost.
 
 I encountered a problem however, and because of it have put my integration effort on pause. The problem is that the library could not decode positions on two axes when I ran it on my Raspberry Pi. On other platforms such as a Ubuntu PC the library worked fine. I suspected the issue is architectural compatibility - the library works on X86-64 based or MIPS based CPUs but not ARM based ones. I think architectural compatibility is the problem, because the problem cannot be OS-related - it happens on various Linux distributions on my Pi, and because as the authors of the library claimed, the code worked on Ubuntu PCs and PIC32 boards.
 
-### Adding support for geometric relationships in haptic drawing
+### Adding Support for Geometric Relationships in Haptic Drawing
 This is the part where I made substantial progress. Specifically my tasks involve:
 
-#### Conducting literature review
+#### Conducting Literature Review
 
 Before we dived deep into adding this cool feature, we had to ensure that we were doing some pioneering work that no one has done before. Also we wanted to draw some inspiration from previous works.
 
@@ -56,7 +56,7 @@ Meanwhile I found some papers that provided us inspiration for designing our use
 
 I also confirmed that adding support for geometric relationships is indeed pioneering. People have created CAD tools that allow users to define geometric constraints, and people have created haptic pens that guide users to draw stuff, but no one has combined a haptic pen for hand sketches with support for geometric constraints. 
 
-#### Defining geometric relationships
+#### Defining Geometric Relationships
 
 Soheil and I came up with geometric relationships that Magic Pen supports, as well as for each relationship what kind of shapes should be involved, and the condition under which each relationship gets applied. We defined five relationships - alignment, parallel, perpendicular, concentric, and fix-distance. Here I present to you two examples of applying the alignment relationship on drawn objects:
 
@@ -74,10 +74,10 @@ And under what circumstances are the coordinates "really close", such that the p
 
 Essentially the pen checks when defining a point, if some other points have their x or y coordinate within a pre-defined proximity to the point we are about to define.
 
-#### Implementing geometric relationships in Python
+#### Implementing Geometric Relationships in Python
 
 Yea of course... with all those relationships defined, I had to code them up, and write up unit tests to make sure they work.
 
-#### Designing the user study
+### Designing the User Study
 
 I designed experiments aimed to evaluate the effectiveness of haptic feedback for guiding users to complete constrained paths.
