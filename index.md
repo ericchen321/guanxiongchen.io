@@ -12,11 +12,11 @@ You can download a copy of <a href="./cv_res/cv_v2.pdf" target="_blank">my CV</a
 
 # Bio
 
-A guy from 4-th Year CPEN at UBC. Aiming to get into a grad school and do some good research. Interested in **HCI**, **robotics**, **graphics** (particularly **physical simulation**).
+A guy from 4-th Year CPEN at UBC. Aiming to get into a grad school and do some good research. Interested in **HCI**, **robotics**, **graphics** (particularly **physics-based simulation**), **reinforcement learning (RL)**, **vision**.
 
 Recently I am volunteering at the UBC SPIN (Sensory Perception & Interaction) Research Group. Under Dr. Soheil Kianzad's supervision, I am working on a project that aims to develop a haptic pen that allows people to sketch simple diagrams with geometric relationships (e.g. parallel, concentric, etc.) defined.
 
-Also I am volunteering at the UBC VCR (Verification, Control & Robotics) Group, under the supervision of Prof. Ian Mitchell. I am working on a robotics-related project.
+Also I am volunteering at the UBC VCR (Verification, Control & Robotics) Group, under the supervision of Prof. Ian Mitchell. I am working on a project related to RL and physics-based simulation.
 
 <br>
 <br>
@@ -25,7 +25,7 @@ Also I am volunteering at the UBC VCR (Verification, Control & Robotics) Group, 
 #### - Volunteering Student at UBC VCR (Verification, Control, Robotics Group)
 _from May 2020 to present at Dept. of Computer Science at UBC_
 
-Highlights: Physical simualation, reinforcement learning, ROS
+Highlights: Physics-based simualation, RL, ROS
 
  [Keep Reading](./tech-exp/vcr.md)
 
