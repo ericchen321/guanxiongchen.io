@@ -7,15 +7,15 @@ layout: default
 May 2020 to Present
 
 ## Summary
-Under [Prof. Ian Mitchell](https://www.cs.ubc.ca/~mitchell/)'s supervision, I have been working on a project aimed for building an interface between ROS and [AI Habitat](https://aihabitat.org/). 
+Under [Prof. Ian Mitchell](https://www.cs.ubc.ca/~mitchell/)'s supervision, I have been working on a project aimed for building an interface between ROS and AI Habitat. Research areas involved are **physics-based simulation** and **deep reinforcement learning**.
 <br><br>
 
 ## What is AI Habitat and What is ROS? Why Together? And what should the Interface Do?
 ### What is AI Habitat?
-AI Habitat is a reinforcement learning framework used for training and evaluating embodied agents on various tasks, such as visual navigation and language navigation. The framework consists of two parts: 1) Habitat Lab, an API for task definition, training, testing, and 2) Habitat Sim, a simulator. 
+[AI Habitat](https://aihabitat.org/) is a reinforcement learning framework used for training and evaluating embodied agents on various tasks, such as visual navigation and language navigation. The framework consists of two parts: 1) Habitat Lab, an API for task definition, training, testing, and 2) Habitat Sim, a simulator. 
 
 ### What is ROS?
-ROS is a robotics middleware which allows us to develop robotics software on top of. For example, we can construct a SLAM-based agent and simulate it within the Gazebo simulator under the ROS framework.
+[ROS](https://www.ros.org/about-ros/) is a robotics middleware which allows us to develop robotics software on top of. For example, we can construct a SLAM-based agent and simulate it within the Gazebo simulator under the ROS framework.
 
 ### Why Together?
 AI Habitat provides novel methods for defining tasks and RL-based agents, and a simulator better in photo-realism than Gazebo, the simulator that comes with ROS. ROS on the other hand is where most traditional agents or software in general run within. So we aim to bridge the gap between the frameworks.
@@ -43,7 +43,7 @@ Bruce has already got a prototypical Mode B working by the time I entered the pr
 More importantly, recently updates on Habitat Sim incorporated the Bullet Physics engine to simulate physics effects, such as gravity, collisions, and friction. **These updates have led us to rethink how we should convert discrete actions into continuous velocities. Since the agents are RL-based, how would the conversion affect their performance? We need to make sure the interface has minimal impact on a Habitat-trained agent's performance in a simulation environment - i.e. what I refer as _performance consistency_.** To this end, I have completed or been working on the following tasks:
 
 ##### Conducting Literature Review on AI Habitat
-To do anything meaningful, I reviewed the paper "Habitat: a Platform for Embodied AI Research" to understand basic concepts of reinforcement learning (RL) and physics-based simulation.
+To do anything meaningful, I reviewed the paper ["Habitat: a Platform for Embodied AI Research"](https://openaccess.thecvf.com/content_ICCV_2019/papers/Savva_Habitat_A_Platform_for_Embodied_AI_Research_ICCV_2019_paper.pdf) to understand basic concepts of reinforcement learning (RL) and physics-based simulation.
 
 ##### Reading Code to Understand Physics Simulation in Habitat Sim
 Next, I reviewed AI Habitat's code base to understand how 

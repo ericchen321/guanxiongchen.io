@@ -7,7 +7,7 @@ layout: default
 September 2019 to Present
 
 ## Summary
-The [SPIN Group at UBC](https://www.cs.ubc.ca/labs/spin/frontpage) under [Prof. Karon Maclean](https://www.cs.ubc.ca/labs/spin/content/karon-maclean)'s supervision emphasizes HCI-related research. Over the course of a year at SPIN, I worked on two projects on Magic Pen (a haptic pen) with [Dr. Soheil Kianzad](https://www.cs.ubc.ca/labs/spin/kianzad):
+The [SPIN Group at UBC](https://www.cs.ubc.ca/labs/spin/frontpage) under [Prof. Karon Maclean](https://www.cs.ubc.ca/labs/spin/content/karon-maclean)'s supervision emphasizes HCI-related research. Over the course of a year at SPIN, I worked on two projects on Magic Pen (a **haptic pen**) with [Dr. Soheil Kianzad](https://www.cs.ubc.ca/labs/spin/kianzad):
 * Integrating open-source, real-time 2D localization to Magic Pen
 * Adding support for geometric relationships in haptic sketches 
 <br><br>
