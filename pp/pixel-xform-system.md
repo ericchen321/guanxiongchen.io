@@ -5,6 +5,8 @@ layout: default
 # Pixel Transforming SoC
 ## Summary
 This is a project I worked on for two weeks in Digital Systems Design, a third-year Computer Engineering course. In the project I built a system-on-chip that rotates a a static image by a fixed degree, and prints the rotated image to a screen. The system is comprised of a soft-core CPU, memory, a graphic accelerator, and a graphics driver.
+
+Major technologies involved are **FPGA**, **embedded software** and **2D computer graphics**.
 <br><br>
 
 ## System Architecture

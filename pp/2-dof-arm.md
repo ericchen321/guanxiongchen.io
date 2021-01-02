@@ -5,10 +5,14 @@ layout: default
 # Laser Lightshow (The Two-DOF Robotic Arm)
 ## Summary
 This is a four-month long project I completed in my third year, in a team of four Electrical Engineering students. The project's aim is to build a laser lightshow system. The system should have a laser pointer mounted on a robotic arm driven by two brushless DC motors, and controlled by a microcontroller. Once a user turns the system on, the motor-driven laser should draw out a figure in continuous frames. <br> The project required students to build the motors themselves, design a control algorithm with the help of MATLAB and Simulink, implement the algorithm on the microcontroller, and to build a PCB to host peripherals (position sensors, motor drivers, etc.)
+
+Major technologies involved are **PID control**, **simulation with MatLab and SimuLink**, and **embedded software and hardware**.
 <br><br>
 
 ## My role
-Each team of four people was split into two groups - a motor group and a control group. The motor group works on building the motor, whereas the control group focuses on modeling, writing code for the microcontroller, and building PCBs. I worked in the control group with [Shalin Hudda](https://ca.linkedin.com/in/shalin-hudda-888886164). Throughout the four months I mainly worked with MATLAB, Simulink, and Arduino programming.
+Each team of four people was split into two groups - a motor group and a control group. The motor group works on building the motor, whereas the control group focuses on modeling, writing code for the microcontroller, and building PCBs. 
+
+I worked in the control group with [Shalin Hudda](https://ca.linkedin.com/in/shalin-hudda-888886164). Throughout the four months **I mainly worked with MATLAB, Simulink, and Arduino programming**.
 <br><br>
 
 ## Timeline

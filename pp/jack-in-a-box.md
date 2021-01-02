@@ -10,6 +10,8 @@ Here is what the entire kiosk look like:
 
 ![](jack-in-a-box-final-product.PNG)
 
+Major technologies involved in this project are **embedded software and hardware** and **machine learning (ML)**.
+
 <br><br>
 
 ## System Architecture
@@ -27,9 +29,10 @@ And here is the diagram that shows the logic of our software components, and how
 ![](jack-in-a-box-arch-soft.PNG)
 *The image is taken from our group report*
 
-## My role
-* Implementing the game's mechanics on the DE1-SoC board with a partner
-* Implementing the face value recognition pipeline with other team members
+## My Roles in the Project
+I completed the following tasks with my teammates:
+* Implementing the game's mechanics on the DE1-SoC board with a partner;
+* Implementing the ML-based face value recognition pipeline with other team members.
 <br><br>
 
 ## Highlights
@@ -49,7 +52,11 @@ Below are some pictures of an operating instance of _Mainframe_:
 *The screen that shows game result*
 
 ### Implementing card value recognition
-One of the requirements for our kiosk is that, it should be able to deal cards automatically, and recognize the face values of the cards it deal. To this end, I implemented a image processing pipeline in Python on a Raspberry Pi board, with the help from my friend [Bole Ma](https://www.linkedin.com/in/david-bole-ma/) (Prior to the project I did not know jack about CV/CG, so he baby-sitted me throughout this part). The major steps within the pipeline are:
+
+#### Requirements
+One of the requirements for our kiosk is that, it should be able to deal cards automatically, and recognize the face values of the cards it deals, in order to compute scores for the player or the kiosk. 
+#### High-Level Design
+To this end, I implemented a image processing pipeline in Python on a Raspberry Pi board, with the help from my friend [Bole Ma](https://www.linkedin.com/in/david-bole-ma/) (Prior to the project I did not know jack about CV/CG, so he baby-sitted me throughout this part). The major steps within the pipeline are:
 
 1. Take a picture of a card
 2. Crop the picture and leave the region with face value only
@@ -57,18 +64,24 @@ One of the requirements for our kiosk is that, it should be able to deal cards a
 4. Extract features from the region
 5. Predict face value using a KNN classifer model
 
+##### Hardware Design - Step 1
 Here is the hardware setup of the pipeline. We used a Pi camera firmly mounted on the card holder to take pictures:
 
 ![](card_value_recog_3.PNG)
 
+##### Software Design - Step 2 to 5
 Step 2 to 5 are the "ML steps" within the entire pipeline. The diagram below more specifically explains our ML pipeline for face value recognition:
 
 ![](card_value_recog_1.PNG)
 
-Also we trained the model by ourselves, as opposed to grabbing it from somewhere on the internet. First of all, We built our training set consisting of 9,830 images by manually taking pictures of each face value and conducting data augmentation. Then I trained with two classification algorithms - SVM and KNN. Once training is done, I tested each model under various lightning conditions. Eventually I found that the two models yielded the same performances (100% accuracy with 25 test images), so I just selected KNN as my final choice.
+Also we trained the model by ourselves, as opposed to grabbing it from somewhere on the internet. First of all, We built our training set consisting of 9,830 images by manually taking pictures of each face value and conducting data augmentation. Then I trained with two classification algorithms - **SVM** and **KNN**. Once training is done, I tested each model under various lightning conditions. Eventually I found that the two models yielded the same performances (100% accuracy with 25 test images), so I just selected KNN as my final choice.
 
+#### Hurdles
+
+##### CV - traditional or ML-based?
 A major challenge we had was choosing between traditional image recognition methods such as template matching and ML-based methods for recognizing card values. And in fact I tested a template matching algorithm and it somehow worked. Eventually we did not use it for its terribly low speed - while our KNN-based algorithm can recognize a digit in less than a second, the template matching algorithm takes roughly 30 seconds! That is intolerable if we want our players to have any fun with our kiosk.
 
+##### Image Quality
 Another challege was ensuring card images we got from our camera are clear. We noticed that if our camera is not well-focused, or some shadows projected on the card, our ML pipeline would perform horribly bad. So we had to build a case to cover our camera:
 
 ![](card_value_recog_2.PNG)
