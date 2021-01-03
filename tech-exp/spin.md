@@ -36,7 +36,7 @@ Here are some use cases of geometric relationships in hand sketches:
 
 You can read more about the project in [here](https://www.cs.ubc.ca/labs/spin/node/388).
 
-## My Roles in the Magic Pen Project
+## My Roles in the Project
 ### Integrating Open-source Localization Capability
 For this project we aimed to integrate an open source robot localization library into our haptic pen, which runs a Python program on a [Raspberry Pi Zero board](https://en.wikipedia.org/wiki/Raspberry_Pi). We expected by the end of the project, given camera image feed, the Python program can decode the location of Magic Pen on a flat dotted paper with structured patterns.
 

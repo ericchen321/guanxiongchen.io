@@ -37,7 +37,7 @@ I completed the following tasks with my teammates:
 
 ## Highlights
 
-### Implementing _Mainframe_ - the game mechanics
+### Implementing _Mainframe_ - the Game Mechanics
 Together with [Jaskirat Singh](https://www.linkedin.com/in/jaskiratsinghmalhi/?originalSubdomain=ca), I implemented the blackjack's mechanics as a bare-metal C program running on the ARM Cortex-A9 processor on my DE1 board. We call the program _Mainframe_. The program can respond to touchscreen inputs, issue commands to deal cards, and compute scores for the (human) player and the (kiosk) dealer. Aside from game mechanics, we also implemented a GUI in the C program.
 
 Below are some pictures of an operating instance of _Mainframe_:
@@ -51,7 +51,7 @@ Below are some pictures of an operating instance of _Mainframe_:
 ![](mainframe_3.PNG)
 *The screen that shows game result*
 
-### Implementing card value recognition
+### Implementing Card Value Recognition
 
 #### Requirements
 One of the requirements for our kiosk is that, it should be able to deal cards automatically, and recognize the face values of the cards it deals, in order to compute scores for the player or the kiosk. 
@@ -78,7 +78,7 @@ Also we trained the model by ourselves, as opposed to grabbing it from somewhere
 
 #### Hurdles
 
-##### CV - traditional or ML-based?
+##### CV - Traditional or ML-based?
 A major challenge we had was choosing between traditional image recognition methods such as template matching and ML-based methods for recognizing card values. And in fact I tested a template matching algorithm and it somehow worked. Eventually we did not use it for its terribly low speed - while our KNN-based algorithm can recognize a digit in less than a second, the template matching algorithm takes roughly 30 seconds! That is intolerable if we want our players to have any fun with our kiosk.
 
 ##### Image Quality

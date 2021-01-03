@@ -54,12 +54,12 @@ This diagram illustrates the working of Mode B:
 
 As you can see, the darkened arrow represents communication between Habitat-trained agents and simulators in ROS, such as Gazebo.
 
-## My roles in the project
-### Updating Mode A - allowing agents from ROS packages work under Habitat Sim
+## My Roles in the Project
+### Updating Mode A - Allowing Agents from ROS Packages Work under Habitat Sim
 #### Refactoring Existing Work
 Bruce has already got a prototypical Mode A working by the time I entered the project. However, the official AI Habitat API have been updated by a lot since Bruce finished the prototype in August 2019. The updates that affect Mode A are mostly trivial - like a class moved from one file to another. I refactored Bruce's Python implementation to accomodate these updates.
 
-### Updating Mode B - allowing Habitat-trained agents work under ROS simulators
+### Updating Mode B - Allowing Habitat-Trained Agents Work under ROS Simulators
 #### Refactoring Existing Work
 Bruce has already implemented a prototypical Mode B before I entered the project. Similar to modifying his Mode A implementation, I updated his Mode B implementation to accomodate updates from the official AI Habitat code base.
 
