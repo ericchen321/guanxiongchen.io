@@ -8,11 +8,11 @@ You can visit my LinkedIn page <a href="https://ca.linkedin.com/in/guanxiongchen
 
 You can send me an email <a href="chenguanxiong@alumni.ubc.ca">My Email</a>
 
-You can download a copy of <a href="./cv_res/cv_v2.pdf" target="_blank">my CV</a>.
+You can download a copy of <a href="./cv_res/cv_v3.pdf" target="_blank">my CV</a>.
 
 # Bio
 
-A guy from 4-th Year CPEN at UBC. Aiming to get into a grad school and do some good research. Interested in **HCI**, **robotics**, **graphics** (particularly **physics-based simulation**), **reinforcement learning (RL)**, **vision**.
+An undergrad from 4-th Year CPEN at UBC. Aiming to get into a grad school and do some good research. Interested in **HCI**, **robotics**, **graphics** (particularly **physics-based simulation**), **reinforcement learning (RL)**, **vision**.
 
 Recently I am volunteering at the UBC SPIN (Sensory Perception & Interaction) Research Group. Under Dr. Soheil Kianzad's supervision, I am working on a project that aims to develop a haptic pen that allows people to sketch simple diagrams with geometric relationships (e.g. parallel, concentric, etc.) defined.
 
